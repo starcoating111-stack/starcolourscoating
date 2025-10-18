@@ -1,0 +1,46 @@
+@keyframes headerFillIn {
+  0% {
+    transform: translateY(-100%);
+    background-color: rgba(0, 0, 0, 0);
+  }
+  100% {
+    transform: translateY(0);
+    background-color: rgba(0, 0, 0, 1);
+  }
+}
+
+@keyframes dropdownFadeSlide {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.header-fill-in {
+  animation: headerFillIn 0.6s ease-out forwards;
+}
+
+.dropdown-animate {
+  animation: dropdownFadeSlide 0.35s ease-out forwards;
+}
+
+
+/* Hero content fade-in animations */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
